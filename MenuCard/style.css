@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCcontainer{
+    background: skyblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 40%;
+    height: 400px;
+    display: grid;
+    background: rgb(233, 220, 215);
+    border-radius: 10px;
+    outline:none;
+}
+h3{
+    padding-left: 40%;
+    margin-top: 10px;
+    border-bottom: double;
+}
+
+figure{
+    margin:15px 10px;
+    
+}
+figcaption span{
+    margin-left: 35%;
+    margin-top: 30px;
+    font-weight: 900;
+    border-bottom: 4px dotted;
+}
+img{
+    margin-left: 20%;
+    border-radius: 25%;
+    outline: none;
+    height: 30vh;
+    width: 50%;
+}
+.para{
+    /* width: 80%; */
+    margin:25px 10px 15px;
+    
+}
+p{
+    text-align:center;
+    text-transform: capitalize;
+    border-bottom: double;
+    border-top: double;
+}
+.btn{
+    display: grid;
+    place-items: center;
+    /* background: red; */
+}
+button{
+    width: 25%;
+    height: 30px;
+    background: saddlebrown;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: double;
+    transition: 0.5s;
+}
